@@ -73,7 +73,7 @@ $(document).ready(function() {
 //event to grab gifs
 ///////////////////
 
-	$(".gifButtons").click(function(event) {
+	$(document).on('click','.gifButtons',function(event) {
 
 		$("#gifArea").empty();
 
@@ -91,7 +91,7 @@ $(document).ready(function() {
 
 		var gifID = event.target.id;
 
-		var gifTerm = $event.target.val();
+		var gifTerm = event.target.val();
 
 		console.log(gifID);
 
