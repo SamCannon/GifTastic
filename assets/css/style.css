@@ -1,0 +1,46 @@
+
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+	#buttons {
+		width: 75%;
+		height: 15%;
+		background: black;
+		margin: 0px auto 0px auto;
+		padding: 20px;
+		text-align: center;
+	}
+
+	#form {
+		width: 75%;
+		height: 20%;
+		background: lightgray;
+		margin: 0px auto 0px auto;
+		padding: 20px;
+		border: solid thin dodgerblue;
+	}
+
+		button {
+			min-width: 125px;
+			min-height: 25px;
+			margin: : 3px;
+		}
+
+	#gifArea {
+		width: 75%;
+		height: 75%;
+		background: limegreen;
+		background: linear-gradient(limegreen, white);
+		margin: 0px auto 0px auto;
+		padding: 20px;
+		border: solid thin dodgerblue;
+	}
+
+		img {
+			margin: 10px;
+		}
